@@ -8,8 +8,6 @@ fun nearestEvenFibonacci(N: Int, queries: IntArray):Int{
     var result:Int = -404
 
 
-
-
     //write your Login here:
     return result
 }

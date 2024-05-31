@@ -29,10 +29,10 @@ fun findPower(N: Int, A: IntArray): Int {
     }
 
     while (pq.size > 1){
-        val first = pq.poll()
-        val second = pq.poll()
+        val a = pq.poll()
+        val b = pq.poll()
 
-        val newValue = if (first==second) first else (first + second)/4
+        val newValue = if (a==b) a else {(a+b)/4}
 
         pq.offer(newValue)
     }
